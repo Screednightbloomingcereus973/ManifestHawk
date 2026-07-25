@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ManifestHawk — Preview</title>
+  <style>
+    :root {
+      --primary: #3B82F6;
+      --secondary: #06B6D4;
+      --bg: #0B1220;
+      --surface: #111827;
+      --border: #1F2937;
+      --text: #E5E7EB;
+      --text-muted: #8B95A7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, -apple-system, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 32px 24px;
+    }
+    .brand { display: flex; align-items: center; gap: 8px; margin-bottom: 18px; }
+    .brand img { width: 22px; height: 22px; }
+    .brand span { font-weight: 700; font-size: 14px; letter-spacing: -0.2px; }
+    h2 {
+      font-size: 12.5px; font-weight: 500; color: var(--text-muted);
+      margin-bottom: 16px; word-break: break-all; max-width: 900px; text-align: center;
+      font-family: "JetBrains Mono", "SF Mono", Consolas, monospace;
+    }
+    video {
+      width: 100%; max-width: 900px; background: #000;
+      border-radius: 12px; border: 1px solid var(--border);
+      box-shadow: 0 20px 60px rgba(59,130,246,0.12);
+    }
+    #status { margin-top: 14px; font-size: 12px; color: var(--secondary); }
+  </style>
+</head>
+<body>
+  <div class="brand">
+    <img src="icons/icon32.png" alt="" />
+    <span>ManifestHawk</span>
+  </div>
+  <h2 id="urlLabel"></h2>
+  <video id="video" controls autoplay></video>
+  <div id="status"></div>
+
+  <script src="player.js"></script>
+</body>
+</html>
